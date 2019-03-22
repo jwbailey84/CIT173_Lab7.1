@@ -1,0 +1,5 @@
+[Unit]
+Description=Restarts the system in 5 minutes
+
+[Service]
+ExectStart=shutdown -r +5 "Manjaro will restart in 5 minutes"

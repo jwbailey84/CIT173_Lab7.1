@@ -1,0 +1,19 @@
+    1  cd ~/CIT173_Lab7
+    2  cd ~/
+    3  git clone https://github.com/jwbailey84/CIT173_Lab7.git
+    4  todo
+    5  sudo vi /etc/systemd/system
+    6  sudo vi /etc/systemd/system/restartin5.service
+    7  sudo nano /etc/systemd/system/restartin5.service
+    8  ls /etc/systemd/system
+    9  man service
+   10  man systemcontrol
+   11  man systemc
+   12  man system ctl
+   13  man systemctl
+   14  systemctl enable restartin5
+   15  sudo cp /etc/systemd/system/restartin5.service ~/CIT173_Lab7
+   16  ls
+   17  cd CIT173_Lab7/
+   18  ls
+   19  history > command-history.txt
